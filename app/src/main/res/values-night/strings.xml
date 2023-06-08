@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="developed_by">By\n Hendri 1152125001</string>
+    <string name="add_note">Add Note</string>
+    <string name="title">Title</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="notes">Notes</string>
+    <string name="priority">Priority</string>
+    <string name="date">Date</string>
+    <string name="r_u_sure_want_to_delete_this_note">R\'u sure want to delete this Note?</string>
+    <string name="donot_del">No</string>
+    <string name="yes_del">Yes</string>
+    <string name="project_start">15 Apr 2023</string>
+    <string name="mobile_based_nprogramming_courses">ITI Mobile-based \nProgramming Courses</string>
+</resources>

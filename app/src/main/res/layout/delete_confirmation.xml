@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_confirm_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center" >
+    <View
+        android:layout_width="100dp"
+        android:layout_height="7dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/del_indicator_shape"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/r_u_sure_want_to_delete_this_note"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/product_sans_bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="45dp"
+        />
+
+
+    <TextView
+        android:id="@+id/delNoBtn"
+        android:background="@drawable/donot_del_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="@string/donot_del"
+        android:textColor="@color/black"
+        android:fontFamily="@font/product_sans_regular"/>
+
+
+    <TextView
+        android:id="@+id/delYesBtn"
+        android:background="@drawable/yes_del_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="45dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="@string/yes_del"
+        android:textColor="@color/black"
+        android:fontFamily="@font/product_sans_regular"/>
+
+</LinearLayout>
